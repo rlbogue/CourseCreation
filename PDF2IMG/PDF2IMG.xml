@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Directory>T:\PDF\</Directory>
+  <Pattern>*.pdf</Pattern>
+  <MTIFFile>T:\PDF\{file}.tif</MTIFFile>
+  <PNGFile>T:\PDF\{file}-{page}.png</PNGFile>
+  <OPNGFile>T:\PDF\{file}-master.png</OPNGFile>
+  <DpiX>300</DpiX>
+  <DpiY>300</DpiY>
+  <FileTopPadding>60</FileTopPadding>
+  <FileBottomPadding>60</FileBottomPadding>
+  <TopPadding>0</TopPadding>
+  <BottomPadding>0</BottomPadding>
+  <LeftPadding>15</LeftPadding>
+  <RightPadding>15</RightPadding>
+  
+  <!--
+            Replacement tokens that are available
+            replacements.Add("fullname", file.FullName);
+            replacements.Add("directory", file.DirectoryName);
+            replacements.Add("file", file.Name.Substring(0, file.Name.Length - file.Extension.Length));
+            replacements.Add("filename", file.Name);
+            replacements.Add("extension", file.Extension);
+            replacements.Add("created", file.CreationTimeUtc.ToString(DateTimeFormatInfo.InvariantInfo));
+            replacements.Add("modified", file.LastWriteTimeUtc.ToString(DateTimeFormatInfo.InvariantInfo));
+  -->
+</Configuration>

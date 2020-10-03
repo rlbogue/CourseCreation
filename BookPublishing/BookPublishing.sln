@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookPublishing", "BookPublishing.csproj", "{CE93C3C9-C3A8-4C16-B8D3-4EA9E159BBEA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.sharepointshepherd.com/tfs/thorprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BookPublishing.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE93C3C9-C3A8-4C16-B8D3-4EA9E159BBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE93C3C9-C3A8-4C16-B8D3-4EA9E159BBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE93C3C9-C3A8-4C16-B8D3-4EA9E159BBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE93C3C9-C3A8-4C16-B8D3-4EA9E159BBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
